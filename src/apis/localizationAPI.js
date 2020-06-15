@@ -7,6 +7,7 @@ const customersDao = DaoFactory.getCustomersDao()
 
 async function findCommercesNearCustomer(cuil, maxDistance) {
   try {
+    // POR ACÁ PASÓ MÓNICA
     validateCuil(cuil)
     validateDistance(maxDistance)
 
