@@ -1,6 +1,5 @@
 import DaoFactory from '../src/dao/daoFactory.js'
 
-
 // Definimos los daos. El test no sabe si va a ser de DB o Caché
 const commercesDao = DaoFactory.getCommercesDao()
 const customersDao = DaoFactory.getCustomersDao()
@@ -46,7 +45,7 @@ async function testGetCustomerByCuil(cuil) {
 
 
 // testGetAllCommerces()
-// testGetAllCustomers()
+ testGetAllCustomers()
 
 // testGetCommerceByName('Comercio3')
 // testGetCustomerByName('ic')

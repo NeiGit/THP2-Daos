@@ -11,10 +11,10 @@ class CustomersDao {
     }
 
     async getBySurname(surname) {
-      throw Error(500, 'getBySurname not implemented')
+        throw Error(500, 'getBySurname not implemented')
     }
 
-    async getByCuil(cuit) {
+    async getByCuil(cuil) {
         throw Error(500, 'getByCuil not implemented')
     }
 

@@ -1,6 +1,6 @@
 export default (status, msg) => {
     const err = new Error(msg)
-    if(status)
+    if (status)
         err.status = status
     return err
 }

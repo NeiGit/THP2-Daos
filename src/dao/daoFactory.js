@@ -3,7 +3,7 @@ import CustomersDaoDB from './implementations/dbDaos/customersDaoDb.js'
 import CommercesDaoCache from './implementations/cacheDaos/commercesDaoCache.js'
 import CommercesDaoDB from './implementations/dbDaos/commercesDaoDb.js'
 import Config from '../../config.js'
-
+import Error from '../services/error.js'
 
 class DaoFactory {
     static getCustomersDao() {

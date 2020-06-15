@@ -1,29 +1,34 @@
-export const customersCache = 
+export const customersCache =
   [{
     name: 'Mónica',
     surname: 'Bidart',
     latitud: -34.6168483, // flores
     longitud: -58.488353,
-    cuil: '10348962310'
+    cuil: '10348962310',
+    veraz: false
   }, 
   {
     name: 'Nicolás',
     surname: 'Ortolá',
     latitud: -34.6168483, // almagro
     longitud: -58.488353,
-    cuil: '20365837210'
+    cuil: '20365837210',
+    veraz: true
   },
   {
     name: 'Fernando',
     surname: 'Gómez',
     latitud: -34.602850, // villa crespo
     longitud: -58.452408,
-    cuil: '15285439875'
+    cuil: '15285439875',
+    veraz: false
   }, 
   {
     name: 'Nadia',
-    surname: 'Birzuela',
+    surname: 'Brizuela',
     latitud: -34.560157,  // urquiza
     longitud: -58.478127,
-    cuil: '20336758100'
+    cuil: '20336758100',
+    veraz: false
   }]
+  
